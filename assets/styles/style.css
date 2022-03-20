@@ -1,9 +1,10 @@
 body {
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
     width: 100%;
+    color: #F6F6F6;
 }
 #search {
-    background-color: #F4FBFF;
+    background-color: #4D5B6F;
     width: 100%;
     margin: 0;
 }
@@ -12,9 +13,8 @@ body {
     width: 100%;
 }
 
-#search > .container-fluid > .form-control {
-    background-color: #dddddd;
-    display: inline;
+.form-control {
+    background-color: #ABB5C5;
 }
 
 .illustration {
