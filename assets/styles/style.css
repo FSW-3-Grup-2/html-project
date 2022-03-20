@@ -1,0 +1,22 @@
+body {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+#search {
+    background-color: #F4FBFF;
+    width: 100%;
+    margin: 0;
+}
+
+.container-fluid > .row {
+    width: 100%;
+}
+
+#search > .container-fluid > .form-control {
+    background-color: #dddddd;
+    display: inline;
+}
+
+.illustration {
+    width: 90%;
+}
