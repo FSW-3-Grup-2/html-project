@@ -1,0 +1,28 @@
+header a, .nav-item a{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+.bg-warna-nav{
+    background-color: #394453;
+}
+.bg-warna-header{
+    background-color: #2D3643;
+}
+.carousel-container{
+    background-color: #2D3643;
+}
+
+h1{
+    font-weight: 800;
+    font-style: normal;
+    line-height: 48px;
+}
+h4{
+    font-weight: 600;
+    font-style: normal;
+    line-height: 27px;
+}
