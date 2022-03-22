@@ -1,0 +1,71 @@
+body {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    width: 100%;
+    color: #F6F6F6;
+}
+
+header a, .nav-item a{
+    font-family: 'Poppins', sans-serif;
+    color: #F6F6F6;
+}
+
+.nav-item a:hover {
+    color: lightblue;
+}
+
+.bg-warna-nav {
+    background-color: #394453;
+}
+
+.bg-warna-header {
+    background-color: #2D3643;
+}
+
+.carousel-container {
+    background-color: #2D3643;
+}
+
+h1 {
+    font-weight: 800;
+    font-style: normal;
+    line-height: 48px;
+}
+
+h4 {
+    font-weight: 600;
+    font-style: normal;
+    line-height: 27px;
+}
+
+#search {
+    background-color: #4D5B6F;
+    width: 100%;
+    margin: 0;
+}
+
+.form-control {
+    background-color: #ABB5C5;
+}
+
+.illustration {
+    width: 95%;
+}
+
+.card {
+    background-color: #4D5B6F;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 360px) {
+    #search > .container-fluid > .row {
+        display: flex;
+        flex-direction: column;
+    }
+    .col-9 {
+        width: 100%;
+    }
+    .col-3 {
+        margin-top: 8%;
+        width: 50%;
+    }
+}
