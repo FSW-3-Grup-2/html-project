@@ -6,6 +6,9 @@ header a:hover, .nav-item a:hover{
     font-family: 'Poppins', sans-serif;
     color: white;
 }
+.header {
+    padding: 20px 0 50px 0;
+}
 body{
     font-family: 'Poppins', sans-serif;
     color: white;
@@ -29,4 +32,23 @@ h4{
     font-weight: 600;
     font-style: normal;
     line-height: 27px;
+}
+.main {
+    background-color: #4D5B6E;
+    padding: 50px 20px;
+}
+.main .box {
+    border-radius: 20px;
+}
+.main img {
+    margin: 30px;
+}
+.main h5, p{
+    color: black;
+}
+footer {
+    background-color: #394453;
+}
+footer p, h6{
+    color: white;
 }
