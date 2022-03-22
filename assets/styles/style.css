@@ -3,14 +3,11 @@ body {
     width: 100%;
     color: #F6F6F6;
 }
+
 #search {
     background-color: #4D5B6F;
     width: 100%;
     margin: 0;
-}
-
-.container-fluid > .row {
-    width: 100%;
 }
 
 .form-control {
@@ -18,5 +15,20 @@ body {
 }
 
 .illustration {
-    width: 90%;
+    width: 95%;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 360px) {
+    #search > .container-fluid > .row {
+        display: flex;
+        flex-direction: column;
+    }
+    .col-9 {
+        width: 100%;
+    }
+    .col-3 {
+        margin-top: 8%;
+        width: 50%;
+    }
 }
