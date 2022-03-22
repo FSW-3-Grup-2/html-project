@@ -31,6 +31,7 @@ include "config/info.php";
                 <li class="nav-item"><a class="mx-4 nav-link" style="text-decoration: none;" href="#search">Search</a>
                 </li>
                 <li class="nav-item"><a class="mx-4 nav-link" style="text-decoration: none;" href="#popular">Populars</a></li>
+                <li class="nav-item"><a class="mx-4 nav-link" style="text-decoration: none;" href="#playing">Now Playing</a></li>
             </ul>
         </div>
     </header>
@@ -128,18 +129,32 @@ include "config/info.php";
         </div>
     </section>
 
-    <!-- Section Popular Movies -->
-    <section id="popular" class="">
+    <!-- Section Popular -->
+    <section id="popular">
         <div class="container-fluid" style="background-color: #2D3643;">
+            <h2 class="p-5 text-center">Popular Movies</h2>
             <div class="d-flex justify-content-center flex-wrap py-5">
-
                 <?php
                 include_once "api/api_popular.php";
                 foreach ($popular->results as $p) {
                     echo '<div class="card mx-3 my-2"><a href="#"><img src="' . $imgurl_1 . '' . $p->poster_path . '" alt="Movie Poster"><div class="card-img-overlay"></div></a><h6 class="text-center py-2">' . $p->original_title . '</h4></div>';
                 }
                 ?>
+            </div>
+        </div>
+    </section>
 
+    <!-- Section Now Playing -->
+    <section id="playing">
+        <div class="container-fluid" style="background-color: #2D3643;">
+            <h2 class="p-5 text-center">Now Playing</h2>
+            <div class="d-flex justify-content-center flex-wrap py-5">
+                <?php
+                include_once "api/api_now.php";
+                foreach ($nowplaying->results as $n) {
+                    echo '<div class="card mx-3 my-2"><a href="#"><img src="' . $imgurl_1 . '' . $n->poster_path . '" alt="Movie Poster"><div class="card-img-overlay"></div></a><h6 class="text-center py-2">' . $n->original_title . '</h4></div>';
+                }
+                ?>
             </div>
         </div>
     </section>
