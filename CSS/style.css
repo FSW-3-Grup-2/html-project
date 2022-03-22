@@ -2,6 +2,10 @@ header a, .nav-item a{
     font-family: 'Poppins', sans-serif;
     color: white;
 }
+header a:hover, .nav-item a:hover{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
 body{
     font-family: 'Poppins', sans-serif;
     color: white;
